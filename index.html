@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="container-child">
+            <h1>Create University</h1>
+            <div class="box">
+                <form action="">
+                    <div><label for="">University Name</label> <br><input type="text"
+                            placeholder="Enter Your University Name"></div> <br>
+
+                    <div>
+                        <label for="">ERP API Link</label> <br><input type="url" placeholder="Enter Your ERP API Link">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="">1st Credential</label> <br><input type="url"
+                            placeholder="Enter Your 1st Credential">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="">2nd Credential</label> <br><input type="url"
+                            placeholder="Enter Your 2nd Credential">
+                    </div>
+                    <br>
+
+                    <div>
+                        <button type="button">ADD UNIVERSITY</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="container-child">
+            <h1>Create Administrator</h1>
+        <div class="box">
+            <form action="">
+                <div><label for="">Username</label> <br><input type="text" placeholder="Enter Your Username"></div> <br>
+                <div>
+                    <label for="">Password</label> <br><input type="password" placeholder="Enter Your password">
+                </div>
+                <br>
+                <div>
+                    <label for="">University ID</label> <br><input type="text" placeholder="Enter Your University ID">
+                </div>
+                <br>
+                <div>
+                    <label for="">Authority</label> <br><input type="text" placeholder="University">
+                </div>
+                <br>
+                <div>
+                    <button type="button">ADD ADMINISTRATOR</button>
+                </div>
+
+            </form>
+        </div>
+        </div>
+
+    </div>
+    <hr>
+    <!-- new section -->
+    <div class="section2">
+        <h1>List Of All Universities</h1>
+        <table>
+            <tr>
+                <th>University Name</th>
+                <th>University ID</th>
+                <th>Edit University</th>
+                <th>Delete University</th>
+            </tr>
+            <tr>
+                <td class="firstcol">AKTU</td>
+                <td>efssehgfjhgfsbnnkdajdiehfsefbjdn</td>
+                <td><a href="#" class="btn">EDIT</a></td>
+                <td><a href="#" class="dlt-btn ">DELETE</a></td>
+            </tr>
+            <tr>
+                <td class="firstcol">DTU</td>
+                <td>efssehgfjhgfsbnnkdajdiehfsefbjdn</td>
+                <td><a href="#" class="btn">EDIT</a></td>
+                <td><a href="#" class="dlt-btn ">DELETE</a></td>
+            </tr>
+        </table>
+        <div class="item">
+            <a href="">LOAD MORE</a>
+        </div>
+        <h1>List Of All Administrators</h1>
+        <table>
+            <tr>
+                <th>Administrator Username</th>
+                <th>Administrator ID</th>
+                <th>Administrator Authority</th>
+                <th>Delete Administrator</th>
+            </tr>
+            <tr>
+                <td class="firstcol">Admin</td>
+                <td>efssehgfjhgfsbnnkdajdiehfsefbjdn</td>
+                <td>Administrative</td>
+                <td><a href="#" class="dlt-btn ">DELETE</a></td>
+            </tr>
+            <tr>
+                <td class="firstcol">Admin-AKTU</td>
+                <td>efssehgfjhgfsbnnkdajdiehfsefbjdn</td>
+                <td>University</td>
+                <td><a href="#" class="dlt-btn ">DELETE</a></td>
+            </tr>
+            <tr>
+                <td class="firstcol">Admin-DTU</td>
+                <td>efssehgfjhgfsbnnkdajdiehfsefbjdn</td>
+                <td>University</td>
+                <td><a href="#" class="dlt-btn ">DELETE</a></td>
+            </tr>
+        </table>
+        <div class="item">
+            <a href="">LOAD MORE</a>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
